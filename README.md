@@ -1,21 +1,29 @@
-Build: 
+## Build: 
 ```
 docker-compose up --build -d
 ```
 
-Kill: 
+## Kill: 
+```
 docker-compose down -v
+```
 
-API logs: 
+## API logs: 
+```
 docker-compose logs fastapi_app
+```
 
-Run tests: 
+## Run tests: 
+```
 docker-compose exec fastapi_app pytest
+```
 
-Swagger: 
+## Swagger: 
+```
 http://localhost:8000/docs#/
+```
 
-Future improvements: 
+## Future improvements: 
 Hash API-Keys with bcrypt
 Add documentation and comments
 More unittests
