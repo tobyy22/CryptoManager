@@ -1,5 +1,10 @@
 Build: 
+```
 docker-compose up --build -d
+```
+
+Kill: 
+docker-compose down -v
 
 API logs: 
 docker-compose logs fastapi_app
