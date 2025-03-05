@@ -24,6 +24,6 @@ http://localhost:8000/docs#/
 ```
 
 ## Future improvements: 
-Hash API-Keys with bcrypt
-Add documentation and comments
-More unittests
+Hash API-Keys with bcrypt  
+Add documentation and comments  
+More unittests  
